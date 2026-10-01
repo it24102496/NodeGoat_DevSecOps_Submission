@@ -11,7 +11,7 @@ adm-zip: Duplicate ZIP entry names: getEntry() and extractAllTo() resolve to dif
 adm-zip: getDataAsync() bypasses the maxOutputLength size guard enforced by the synchronous getData() path - https://github.com/advisories/GHSA-c6fg-446q-cg94
 adm-zip: Unhandled error event in async DEFLATE decompression crashes Node.js process (DoS) - https://github.com/advisories/GHSA-8238-w5pm-2374
 fix available via `npm audit fix --force`
-Will install selenium-webdriver@4.49.0, which is a breaking change
+Will install selenium-webdriver@4.50.0, which is a breaking change
 node_modules/adm-zip
   selenium-webdriver  2.43.1 - 4.0.0-rc-2
   Depends on vulnerable versions of adm-zip
@@ -308,7 +308,7 @@ Regular Expression Denial of Service in debug - https://github.com/advisories/GH
 Regular Expression Denial of Service in debug - https://github.com/advisories/GHSA-gxpj-cx7g-858c
 Depends on vulnerable versions of ms
 fix available via `npm audit fix --force`
-Will install mocha@12.0.2, which is a breaking change
+Will install mocha@12.0.3, which is a breaking change
 node_modules/@cypress/xvfb/node_modules/debug
 node_modules/connect/node_modules/debug
 node_modules/cypress/node_modules/debug
@@ -352,7 +352,7 @@ Severity: high
 Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-h6ch-v84p-w6p9
 jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch - https://github.com/advisories/GHSA-73rr-hh4g-fpgx
 fix available via `npm audit fix --force`
-Will install mocha@12.0.2, which is a breaking change
+Will install mocha@12.0.3, which is a breaking change
 node_modules/diff
   tap-mocha-reporter  0.0.4 - 5.0.0
   Depends on vulnerable versions of diff
@@ -442,7 +442,7 @@ growl  <1.10.0
 Severity: critical
 Growl before 1.10.0 vulnerable to Command Injection - https://github.com/advisories/GHSA-qh2h-chj9-jffq
 fix available via `npm audit fix --force`
-Will install mocha@12.0.2, which is a breaking change
+Will install mocha@12.0.3, which is a breaking change
 node_modules/growl
 
 
@@ -736,7 +736,7 @@ ms  <2.0.0
 Severity: moderate
 Vercel ms Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-w9mr-4mfr-499f
 fix available via `npm audit fix --force`
-Will install mocha@12.0.2, which is a breaking change
+Will install mocha@12.0.3, which is a breaking change
 node_modules/connect/node_modules/ms
 node_modules/mocha/node_modules/ms
 node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/debug/node_modules/ms
@@ -962,7 +962,7 @@ xml2js  <0.5.0
 Severity: moderate
 xml2js is vulnerable to prototype pollution - https://github.com/advisories/GHSA-776f-qx25-q3cc
 fix available via `npm audit fix --force`
-Will install selenium-webdriver@4.49.0, which is a breaking change
+Will install selenium-webdriver@4.50.0, which is a breaking change
 node_modules/xml2js
 
 y18n  <3.2.2
